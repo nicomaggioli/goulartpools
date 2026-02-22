@@ -348,16 +348,11 @@ a {
   align-items: center;
 }
 
-.image-placeholder {
+.about-img {
   width: 100%;
-  aspect-ratio: 4/3;
-  background: linear-gradient(135deg, var(--surface-soft) 0%, var(--border) 100%);
+  height: auto;
   border-radius: var(--radius-lg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--ink-muted);
-  font-weight: 500;
+  box-shadow: var(--shadow-medium);
 }
 
 /* Contact Section */
